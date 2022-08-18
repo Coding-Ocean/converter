@@ -36,7 +36,7 @@ i saikoro 36
 3 1 2 
 4 5 7 
 7 5 6 
-x saikoro Assets/saikoro.jpg
+x saikoro Assets/textures/saikoro/saikoro.jpg
 b saikoro saikoro saikoro 1
 0 12 saikoro
 t saikoro
@@ -81,7 +81,7 @@ i pCube1 36
 3 10 11 
 0 21 12 
 12 21 13 
-x pattern_camo1 Assets/pattern_camo1.png
+x pattern_camo1 Assets/textures/test/pattern_camo1.png
 b pCube1 pCube1 pCube1 1
 0 12 pattern_camo1
 v pCube2 pnt 24

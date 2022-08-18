@@ -36,7 +36,7 @@ i saikoro 36
 3 1 2 
 4 5 7 
 7 5 6 
-x saikoro Assets/saikoro.jpg
+x saikoro Assets/textures/saikoro/saikoro.jpg
 b saikoro saikoro saikoro 1
 0 12 saikoro
 t saikoro

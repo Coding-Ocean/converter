@@ -7,14 +7,22 @@ void createAssets()
 {
 #if( _DEBUG )
     CONVERT_MA convertMa;
-    convertMa.fbxToTree("Assets/saikoro.fbx", "Assets/saikoro.txt", "Assets/");
-    convertMa.fbxToTree("Assets/test.fbx", "Assets/test.txt", "Assets/");
-    convertMa.fbxToAnim("Assets/test.fbx", "Assets/test_move.txt");
+    convertMa.fbxToTree(
+        "AssetsOrigin/saikoro/saikoro.fbx", 
+        "AssetsOrigin/saikoro/saikoro.txt", 
+        "Assets/textures/saikoro/");
+    convertMa.fbxToTree(
+        "AssetsOrigin/test/test.fbx", 
+        "AssetsOrigin/test/test.txt", 
+        "Assets/textures/test/");
+    convertMa.fbxToAnim(
+        "AssetsOrigin/test/test.fbx", 
+        "AssetsOrigin/test/test_move.txt");
 
     const char* assetsFileName = "Assets/Assets.txt";
     delFile(assetsFileName);
-    addFile(assetsFileName, "Assets/saikoro.txt");
-    addFile(assetsFileName, "Assets/test.txt");
-    addFile(assetsFileName, "Assets/test_move.txt");
+    addFile(assetsFileName, "AssetsOrigin/saikoro/saikoro.txt");
+    addFile(assetsFileName, "AssetsOrigin/test/test.txt");
+    addFile(assetsFileName, "AssetsOrigin/test/test_move.txt");
 #endif
 }

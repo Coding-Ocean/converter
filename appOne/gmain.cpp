@@ -10,7 +10,7 @@ void gmain() {
     window(1920, 1080, full);
     hideCursor();
     
-    int img = loadImage("assets\\gorilla.png");
+    int img = loadImage("assets\\images\\gorilla.png");
     
     createAssets();
 
